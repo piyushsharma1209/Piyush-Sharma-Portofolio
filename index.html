@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <a href="index.html" class="logo">Portofolio</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Piyush Sharma</h2>
+            <span class="home-subtitle">Hi! This is my portofolio. Please Check it out!</span>
+        </div>
+    </section>
+    <!-- Posts -->
+    <section class="work container">
+        <!-- Post Box 1 -->
+        <div class="mywork">
+            <img src="img/portfolio-1.jpg" alt="" class="work-img">
+            <a href="https://github.com/piyushsharma1209/Piyush-Sharma-Interaction-Design-CA"
+                class="work-title">Cross-course Project</a>
+            <p class="work-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+        <!-- Post Box 2 -->
+        <div class="mywork">
+            <img src="img/portfolio-2.jpg" alt="" class="work-img">
+            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-piyushsharma1209"
+                class="work-title">Semester Project </a>
+            <p class="work-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+        <!-- Post Box 3 -->
+        <div class="mywork">
+            <img src="img/portfolio-3.jpg" alt="" class="work-img">
+            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-piyushsharma1209"
+                class="work-title">Porject Exam</a>
+            <p class="work-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minus
+                voluptatibus, voluptas magni mollitia nulla soluta voluptates libero qui optio ratione dolor adipisci ad
+                sapiente?</p>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer container">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+    <!-- Link TO JS -->
+    <script src="js/main.js"></script>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
