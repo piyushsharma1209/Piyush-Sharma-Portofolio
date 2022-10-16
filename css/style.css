@@ -365,19 +365,6 @@ header {
   width: 100px;
 }
 
-#cart-icon {
-  font-size: 1.8rem;
-  cursor: pointer;
-  color: white;
-}
-#user-icon {
-  font-size: 1.8rem;
-  cursor: pointer;
-}
-#menu-icon {
-  font-size: 1.8rem;
-  cursor: pointer;
-}
 /* Breakpoints / Making Responsive */
 @media (max-width: 1080px) {
   .nav {
@@ -385,10 +372,6 @@ header {
   }
 }
 @media (max-width: 400px) {
-
-  .menu-btn {
-    display: block;
-}
   .nav {
     padding: 0px;
   }
@@ -403,21 +386,9 @@ header {
   font-weight: 500;
   color: var(--text-color);
 }
-.navbar a:hover {
-  color: var(--second-color);
-}
-.navbar .active {
-  color: var(--second-color);
-}
-#menu-icon {
-  display: none;
-}
 
 
 @media (max-width: 768px) {
-  #menu-icon {
-    display: initial;
-  }
   header .navbar {
     position: absolute;
     width: 320px;
